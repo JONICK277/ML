@@ -1,0 +1,16 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'ml_team_b_documentation.blg'
+[95] biber-MSWIN64:340> INFO - === 
+[122] Biber.pm:420> INFO - Reading 'ml_team_b_documentation.bcf'
+[183] Biber.pm:994> INFO - Found 1 citekeys in bib section 0
+[190] Biber.pm:4463> INFO - Processing section 0
+[197] Biber.pm:4654> INFO - Looking for bibtex file 'resources/references.bib' for section 0
+[239] bibtex.pm:1713> INFO - LaTeX decoding ...
+[247] bibtex.pm:1519> INFO - Found BibTeX data source 'C:\Users\Jost Nickel\OneDrive\Desktop\Hochschule Bremen\Semester VII\BIP\ML-Project\ML\docs\src\resources\references.bib'
+[270] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[270] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[270] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[270] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[270] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[271] bbl.pm:676> INFO - Writing 'ml_team_b_documentation.bbl' with encoding 'UTF-8'
+[272] bbl.pm:779> INFO - Output to ml_team_b_documentation.bbl
