@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a54375b3-d68a-4775-952a-572f42793276" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/content/Challenges_and_Limitations.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/Conclusions_and_Future_Work.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/Data_Description.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/Methodology.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/Problem_Description.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/Results_and_Discussion.tex" afterDir="false" />
-    </list>
+    <list default="true" id="a54375b3-d68a-4775-952a-572f42793276" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,43 +13,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2rGD5LW6DtfYgYmCPJGnPIC89LP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "BibTeX.ml_team_b_documentation bibliography.executor": "Run",
-    "LaTeX.ml_team_b_documentation.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Jost Nickel/OneDrive/Desktop/Hochschule Bremen/Semester VII/BIP/ML-Project/ML/docs",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;BibTeX.ml_team_b_documentation bibliography.executor&quot;: &quot;Run&quot;,
+    &quot;LaTeX.ml_team_b_documentation.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jost Nickel/OneDrive/Desktop/Hochschule Bremen/Semester VII/BIP/ML-Project/ML/docs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="LaTeX.ml_team_b_documentation">
-    <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
-      <texify-bibtex>
-        <compiler />
-        <compiler-path />
-        <compiler-arguments />
-        <envs />
-        <main-file />
-        <aux-dir />
-      </texify-bibtex>
-      <method v="2" />
-    </configuration>
     <configuration name="ml_team_b_documentation bibliography" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler>BIBER</compiler>
@@ -117,6 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1736176333230</updated>
       <workItem from="1736176334438" duration="311000" />
+      <workItem from="1736189455758" duration="13000" />
     </task>
     <servers />
   </component>
