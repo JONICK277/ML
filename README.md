@@ -13,7 +13,7 @@ The model's performance is assessed using **Root Mean Squared Error (RMSE)**, et
 
 ---
 
-## Train- Exel-file
+## Train- Excel-file
 I've marked the columns in the following way: 
 1. Red: empty or std of 0 (remove)
 2. yellow: not sure
