@@ -13,10 +13,11 @@ The model's performance is assessed using **Root Mean Squared Error (RMSE)**, et
 
 ---
 
-## Train- Exel-file
+## Train- Excel-file
 I've marked the columns in the following way: 
 1. Red: empty or std of 0 (remove)
 2. yellow: not sure
-3. orange: irrelevant IDs and keys (remove)
+3. orange: irrelevant IDs or the ID-name and keys (remove)
 4. orange underline: Redundant (use one and remove others)
 5. green: target Value
+6. gray: not sure at all
