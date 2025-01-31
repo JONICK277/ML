@@ -1,0 +1,116 @@
+\documentclass[
+    11pt,
+    a4paper,
+    DIV=calc,
+    headsepline,
+    listof=flat,
+    listof=totoc,
+    bibliography=totoc
+]{scrartcl}
+
+% Language and Encoding settings
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[english=british]{csquotes}
+\usepackage[normalem]{ulem}
+\usepackage[section]{placeins}
+\usepackage{svg}
+\usepackage{makecell}
+
+% General settings
+\usepackage[left = 2.5cm, right = 2.5cm, top = 3.3cm, bottom = 2.5cm, includeheadfoot]{geometry}
+\setlength{\parindent}{0pt}
+
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+
+\usepackage{scrlayer-scrpage}
+\pagestyle{scrheadings}
+
+% Font settings
+\usepackage{lmodern}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[backend=biber,
+    style=numeric-comp,
+    sorting=none,
+    sortcase=false,
+    maxnames=1,
+    maxbibnames=8,
+    minbibnames=8,
+    urldateusetime=true]{biblatex}
+
+\DefineBibliographyStrings{english}{andothers = {et al.}}
+\DeclareNameAlias{sortname}{family-given}
+\DeclareNameAlias{default}{family-given}
+\renewcommand*{\multinamedelim}{\addsemicolon\addspace}
+
+% Utils
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{blindtext}
+\usepackage{acronym}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{pdflscape}
+\usepackage{pdfpages}
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+
+\usepackage{enumitem}
+
+\renewcommand{\labelenumi}{\arabic{enumi}.}
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}}
+\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}}
+
+\setlength{\parindent}{0pt}
+\pagestyle{scrheadings}
+
+\newcommand{\redcheck}{{\color{red}\checkmark}}
+\newcommand{\bluecheck}{{\color{blue}\checkmark}}
+\newcommand{\greencheck}{{\color{green}\checkmark}}
+
+% Maths
+\usepackage{amsmath}
+\usepackage{eurosym}
+
+% Hyperlinks
+\usepackage[colorlinks,
+    pdfpagelabels,
+    pdfusetitle,
+    pdfstartview = FitH,
+    bookmarksopen = true,
+    bookmarksnumbered = true,
+    linkcolor = black,
+    plainpages = false,
+    hypertexnames = false,
+    urlcolor = black,
+    citecolor = black] {hyperref}
+\usepackage{bookmark}
+\usepackage[all]{hypcap}
+\usepackage{amssymb}
+
+\usepackage{nomencl}
+\renewcommand{\nomname}{Abbreviations}
+\bibliography{resources/references}
+
+%------------------------------------------------%
+
+\begin{document}
+
+    \input{components/titlepage}
+    \input{components/header}
+
+    \input{components/directories}
+    \newcommand{\abkvz}{Abbreviations}
+    \section*{\abkvz}
+    \markboth{\abkvz}{\abkvz}
+    \addcontentsline{toc}{section}{\abkvz}
+    \input{resources/abbreviations}
+    \newpage
+    \input{structure}
+    \printbibliography
+
+
+
+\end{document}
