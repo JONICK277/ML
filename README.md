@@ -15,7 +15,7 @@ By leveraging historical sales data, we develop predictive models to estimate ho
 
 ### **How to Use the Models?**
  **Option 1: Download Pretrained Models**  
-   - The models are available on **[Google Drive (Insert Link)]()**.  
+   - The models are available on **[Google Drive]()**.  
    - Download and place them in the `/models` directory.  
 
  **Option 2: Retrain the Models**  
