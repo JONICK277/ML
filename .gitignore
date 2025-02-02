@@ -172,4 +172,4 @@ cython_debug/
 
 # Data Files
 data/raw/
-models/
+models/best_model_forest.pkl
